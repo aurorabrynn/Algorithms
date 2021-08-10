@@ -2,9 +2,5 @@
 // and return the string "even" if `num` is an even number
 
 var oddOrEven = function(num) {
-    if(num % 2 === 0) {
-        return "even";
-    } else {
-        return "odd"
-    }
+    return num % 2 === 0 ? 'even' : 'odd'
 };

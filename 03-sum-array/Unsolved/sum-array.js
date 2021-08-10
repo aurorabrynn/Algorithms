@@ -4,6 +4,5 @@ var sumArray = function (arr) {
     const result = 0;
     for (i = 0; i < arr.length; i++) {
         result += arr[i];
-        return result
     }
 };

@@ -3,6 +3,6 @@
 
 var logNums = function (num) {
     for (i = 1; i <= num; i++) {
-        console.log(i);
+        return (i);
     }
 };
